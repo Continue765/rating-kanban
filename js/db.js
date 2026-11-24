@@ -388,5 +388,20 @@ export const players = {
       "url": "https://atcoder.jp/users/shans_kyb",
       "badge": "https://atrating.baoshuo.dev/rating?username=shans_kyb"
     }
+  },
+  "heeeezi": {
+    "id": "heeeezi",
+    "name": "饶昕跃",
+    "year": "2026",
+    "codeforces": {
+      "handle": "heeeezi",
+      "url": "https://codeforces.com/profile/heeeezi",
+      "badge": "https://api.cubercsl.site/codeforces/heeeezi?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "heeeezi",
+      "url": "https://atcoder.jp/users/heeeezi",
+      "badge": "https://atrating.baoshuo.dev/rating?username=heeeezi"
+    }
   }
 };
