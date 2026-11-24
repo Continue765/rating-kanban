@@ -1,6 +1,6 @@
-import { boardConfig } from './config.js?v=2026-pool-4';
-import { createColumn } from './components.js?v=badge-images';
-import { players } from './db.js?v=2026-pool-4';
+import { boardConfig } from './config.js?v=codeforces-badges';
+import { createColumn } from './components.js?v=codeforces-badges';
+import { players } from './db.js?v=codeforces-badges';
 
 const currentCodeforcesHandles = {
   riobluss: 'Zihim',
@@ -50,7 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
         data.result.forEach(userInfo => {
           const player = playerMap.get(userInfo.handle.toLowerCase());
           if (player) {
-            player.rating = userInfo.rating || 0;
+            player.rating = userInfo.rating;
+            player.codeforces.rank = userInfo.rank ?? 'unrated';
+            player.codeforces.displayHandle = userInfo.handle;
           }
         });
 

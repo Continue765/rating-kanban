@@ -1,4 +1,4 @@
-import { players } from './db.js?v=2026-pool-4';
+import { players } from './db.js?v=codeforces-badges';
 
 export const boardConfig = [
   {
@@ -68,7 +68,8 @@ export const boardConfig = [
           players["BXG504"],
           players["jienigui006"],
           players["shans_kyb"],
-          players["heeeezi"]
+          players["heeeezi"],
+          players["Yukikaze6666"]
         ]
       }
     ]

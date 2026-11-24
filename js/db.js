@@ -5,8 +5,7 @@ export const players = {
     "year": "2024",
     "codeforces": {
       "handle": "RioBluss",
-      "url": "https://codeforces.com/profile/RioBluss",
-      "badge": "https://api.cubercsl.site/codeforces/RioBluss?style=for-the-badge"
+      "url": "https://codeforces.com/profile/RioBluss"
     },
     "atcoder": {
       "handle": "RioBluss",
@@ -20,8 +19,7 @@ export const players = {
     "year": "2024",
     "codeforces": {
       "handle": "yangxuan",
-      "url": "https://codeforces.com/profile/yangxuan",
-      "badge": "https://api.cubercsl.site/codeforces/yangxuan?style=for-the-badge"
+      "url": "https://codeforces.com/profile/yangxuan"
     },
     "atcoder": {
       "handle": "AllAce",
@@ -35,8 +33,7 @@ export const players = {
     "year": "2024",
     "codeforces": {
       "handle": "cjtyyds",
-      "url": "https://codeforces.com/profile/cjtyyds",
-      "badge": "https://api.cubercsl.site/codeforces/cjtyyds?style=for-the-badge"
+      "url": "https://codeforces.com/profile/cjtyyds"
     },
     "atcoder": {
       "handle": "cjtyyds",
@@ -50,8 +47,7 @@ export const players = {
     "year": "2024",
     "codeforces": {
       "handle": "Lx2024",
-      "url": "https://codeforces.com/profile/Lx2024",
-      "badge": "https://api.cubercsl.site/codeforces/Lx2024?style=for-the-badge"
+      "url": "https://codeforces.com/profile/Lx2024"
     },
     "atcoder": {
       "handle": "Lx2025",
@@ -65,8 +61,7 @@ export const players = {
     "year": "2024",
     "codeforces": {
       "handle": "bjgf",
-      "url": "https://codeforces.com/profile/bjgf",
-      "badge": "https://api.cubercsl.site/codeforces/bjgf?style=for-the-badge"
+      "url": "https://codeforces.com/profile/bjgf"
     },
     "atcoder": {
       "handle": "bjgf",
@@ -80,8 +75,7 @@ export const players = {
     "year": "2024",
     "codeforces": {
       "handle": "hesto",
-      "url": "https://codeforces.com/profile/hesto",
-      "badge": "https://api.cubercsl.site/codeforces/hesto?style=for-the-badge"
+      "url": "https://codeforces.com/profile/hesto"
     },
     "atcoder": {
       "handle": "hesto",
@@ -95,8 +89,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "dfs514",
-      "url": "https://codeforces.com/profile/dfs514",
-      "badge": "https://api.cubercsl.site/codeforces/dfs514?style=for-the-badge"
+      "url": "https://codeforces.com/profile/dfs514"
     },
     "atcoder": {
       "handle": "dfs514",
@@ -110,8 +103,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "rhisea",
-      "url": "https://codeforces.com/profile/rhisea",
-      "badge": "https://api.cubercsl.site/codeforces/rhisea?style=for-the-badge"
+      "url": "https://codeforces.com/profile/rhisea"
     },
     "atcoder": {
       "handle": "rhisea",
@@ -125,8 +117,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "Rizkywds",
-      "url": "https://codeforces.com/profile/Rizkywds",
-      "badge": "https://api.cubercsl.site/codeforces/Rizkywds?style=for-the-badge"
+      "url": "https://codeforces.com/profile/Rizkywds"
     },
     "atcoder": {
       "handle": "Rizkywds",
@@ -140,8 +131,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "Continue90666",
-      "url": "https://codeforces.com/profile/Continue90666",
-      "badge": "https://api.cubercsl.site/codeforces/Continue90666?style=for-the-badge"
+      "url": "https://codeforces.com/profile/Continue90666"
     },
     "atcoder": {
       "handle": "Continue906",
@@ -155,8 +145,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "DragonsT",
-      "url": "https://codeforces.com/profile/DragonsT",
-      "badge": "https://api.cubercsl.site/codeforces/DragonsT?style=for-the-badge&v=2"
+      "url": "https://codeforces.com/profile/DragonsT"
     },
     "atcoder": {
       "handle": "Tao_dragon",
@@ -170,8 +159,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "guguhan",
-      "url": "https://codeforces.com/profile/guguhan",
-      "badge": "https://api.cubercsl.site/codeforces/guguhan?style=for-the-badge"
+      "url": "https://codeforces.com/profile/guguhan"
     },
     "atcoder": {
       "handle": "guguhan",
@@ -185,8 +173,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "zxz_123",
-      "url": "https://codeforces.com/profile/zxz_123",
-      "badge": "https://api.cubercsl.site/codeforces/zxz_123?style=for-the-badge&v=2"
+      "url": "https://codeforces.com/profile/zxz_123"
     },
     "atcoder": {
       "handle": "zxz_123",
@@ -200,8 +187,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "lllzh9407",
-      "url": "https://codeforces.com/profile/lllzh9407",
-      "badge": "https://api.cubercsl.site/codeforces/lllzh9407?style=for-the-badge"
+      "url": "https://codeforces.com/profile/lllzh9407"
     },
     "atcoder": {
       "handle": "lllzh9407",
@@ -215,8 +201,7 @@ export const players = {
     "year": "2025",
     "codeforces": {
       "handle": "Caseeee",
-      "url": "https://codeforces.com/profile/Caseeee",
-      "badge": "https://api.cubercsl.site/codeforces/Caseeee?style=for-the-badge"
+      "url": "https://codeforces.com/profile/Caseeee"
     },
     "atcoder": {
       "handle": "Casee",
@@ -230,8 +215,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "yanzhouxuzihao",
-      "url": "https://codeforces.com/profile/yanzhouxuzihao",
-      "badge": "https://api.cubercsl.site/codeforces/yanzhouxuzihao?style=for-the-badge"
+      "url": "https://codeforces.com/profile/yanzhouxuzihao"
     },
     "atcoder": {
       "handle": "yanzhouxuzihao",
@@ -245,8 +229,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "_blds",
-      "url": "https://codeforces.com/profile/_blds",
-      "badge": "https://api.cubercsl.site/codeforces/_blds?style=for-the-badge"
+      "url": "https://codeforces.com/profile/_blds"
     },
     "atcoder": {
       "handle": "blds",
@@ -260,8 +243,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "Eamon817",
-      "url": "https://codeforces.com/profile/Eamon817",
-      "badge": "https://api.cubercsl.site/codeforces/Eamon817?style=for-the-badge"
+      "url": "https://codeforces.com/profile/Eamon817"
     },
     "atcoder": {
       "handle": "Eamon81",
@@ -275,8 +257,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "AC_LIN",
-      "url": "https://codeforces.com/profile/AC_LIN",
-      "badge": "https://api.cubercsl.site/codeforces/AC_LIN?style=for-the-badge"
+      "url": "https://codeforces.com/profile/AC_LIN"
     },
     "atcoder": {
       "handle": "AC_LIN",
@@ -290,8 +271,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "Junksans",
-      "url": "https://codeforces.com/profile/Junksans",
-      "badge": "https://api.cubercsl.site/codeforces/Junksans?style=for-the-badge"
+      "url": "https://codeforces.com/profile/Junksans"
     },
     "atcoder": {
       "handle": "Junksans",
@@ -305,8 +285,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "redmemory",
-      "url": "https://codeforces.com/profile/redmemory",
-      "badge": "https://api.cubercsl.site/codeforces/redmemory?style=for-the-badge"
+      "url": "https://codeforces.com/profile/redmemory"
     },
     "atcoder": {
       "handle": "redmemory",
@@ -320,8 +299,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "KskBlZD",
-      "url": "https://codeforces.com/profile/KskBlZD",
-      "badge": "https://api.cubercsl.site/codeforces/KskBlZD?style=for-the-badge"
+      "url": "https://codeforces.com/profile/KskBlZD"
     },
     "atcoder": {
       "handle": "hand__some",
@@ -335,8 +313,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "zhect",
-      "url": "https://codeforces.com/profile/zhect",
-      "badge": "https://api.cubercsl.site/codeforces/zhect?style=for-the-badge"
+      "url": "https://codeforces.com/profile/zhect"
     },
     "atcoder": {
       "handle": "zhect",
@@ -350,8 +327,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "BXG504",
-      "url": "https://codeforces.com/profile/BXG504",
-      "badge": "https://api.cubercsl.site/codeforces/BXG504?style=for-the-badge"
+      "url": "https://codeforces.com/profile/BXG504"
     },
     "atcoder": {
       "handle": "BXG504",
@@ -365,8 +341,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "jienigui006",
-      "url": "https://codeforces.com/profile/jienigui006",
-      "badge": "https://api.cubercsl.site/codeforces/jienigui006?style=for-the-badge"
+      "url": "https://codeforces.com/profile/jienigui006"
     },
     "atcoder": {
       "handle": "jienigui006",
@@ -380,8 +355,7 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "shans_kyb",
-      "url": "https://codeforces.com/profile/shans_kyb",
-      "badge": "https://api.cubercsl.site/codeforces/shans_kyb?style=for-the-badge"
+      "url": "https://codeforces.com/profile/shans_kyb"
     },
     "atcoder": {
       "handle": "shans_kyb",
@@ -395,13 +369,26 @@ export const players = {
     "year": "2026",
     "codeforces": {
       "handle": "heeeezi",
-      "url": "https://codeforces.com/profile/heeeezi",
-      "badge": "https://api.cubercsl.site/codeforces/heeeezi?style=for-the-badge"
+      "url": "https://codeforces.com/profile/heeeezi"
     },
     "atcoder": {
       "handle": "heeeezi",
       "url": "https://atcoder.jp/users/heeeezi",
       "badge": "https://atrating.baoshuo.dev/rating?username=heeeezi"
+    }
+  },
+  "Yukikaze6666": {
+    "id": "Yukikaze6666",
+    "name": "郭泳宇",
+    "year": "2026",
+    "codeforces": {
+      "handle": "Yukikaze6666",
+      "url": "https://codeforces.com/profile/Yukikaze6666"
+    },
+    "atcoder": {
+      "handle": "Yukikaze6666",
+      "url": "https://atcoder.jp/users/Yukikaze6666",
+      "badge": "https://atrating.baoshuo.dev/rating?username=Yukikaze6666"
     }
   }
 };

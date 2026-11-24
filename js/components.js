@@ -1,3 +1,34 @@
+const codeforcesRankColors = {
+  newbie: '#666',
+  pupil: '#008000',
+  specialist: '#087762',
+  expert: '#0000ff',
+  'candidate master': '#a000a0',
+  master: '#9a4d00',
+  'international master': '#9a4d00',
+  grandmaster: '#b01427',
+  'international grandmaster': '#b01427',
+  'legendary grandmaster': '#b01427'
+};
+
+function createCodeforcesBadge(player) {
+  const { handle, displayHandle, url, rank } = player.codeforces;
+  const link = document.createElement('a');
+  link.className = 'badge-link cf-badge';
+  link.href = url;
+  link.target = '_blank';
+
+  const label = document.createElement('span');
+  label.textContent = `CF ${displayHandle ?? handle}`;
+  const value = document.createElement('span');
+  const rankLabel = rank ?? 'N/A';
+  value.textContent = Number.isFinite(player.rating) ? `${rankLabel} ${player.rating}` : rankLabel;
+  value.style.backgroundColor = codeforcesRankColors[rank] ?? '#666';
+  link.setAttribute('aria-label', `CF Rating: ${displayHandle ?? handle}, ${value.textContent}`);
+  link.append(label, value);
+  return link;
+}
+
 export function createCard(player) {
   const card = document.createElement('div');
   card.className = 'player-card';
@@ -5,12 +36,6 @@ export function createCard(player) {
   card.dataset.name = player.name.toLowerCase();
   card.dataset.id = player.id.toLowerCase();
   
-  // Codeforces Badge
-  const cfBadge = player.codeforces.badge ? 
-    `<a href="${player.codeforces.url}" target="_blank" class="badge-link">
-       <img src="${player.codeforces.badge}" alt="CF Rating" loading="lazy">
-     </a>` : '';
-
   // AtCoder Badge
   const acBadge = player.atcoder.badge ? 
     `<a href="${player.atcoder.url}" target="_blank" class="badge-link">
@@ -22,10 +47,13 @@ export function createCard(player) {
       <h3 class="player-name">${player.name}</h3>
     </div>
     <div class="card-badges">
-      ${cfBadge}
       ${acBadge}
     </div>
   `;
+
+  if (player.codeforces.handle && player.codeforces.url) {
+    card.querySelector('.card-badges').prepend(createCodeforcesBadge(player));
+  }
   
   return card;
 }
