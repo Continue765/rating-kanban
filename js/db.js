@@ -324,9 +324,9 @@ export const players = {
       "badge": "https://api.cubercsl.site/codeforces/KskBlZD?style=for-the-badge"
     },
     "atcoder": {
-      "handle": "hand_some",
-      "url": "https://atcoder.jp/users/hand_some",
-      "badge": "https://atrating.baoshuo.dev/rating?username=hand_some"
+      "handle": "hand__some",
+      "url": "https://atcoder.jp/users/hand__some",
+      "badge": "https://atrating.baoshuo.dev/rating?username=hand__some"
     }
   },
   "zhect": {

@@ -1,4 +1,4 @@
-import { players } from './db.js?v=2026-pool';
+import { players } from './db.js?v=2026-pool-2';
 
 export const boardConfig = [
   {
