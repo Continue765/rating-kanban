@@ -223,5 +223,155 @@ export const players = {
       "url": "https://atcoder.jp/users/Casee",
       "badge": "https://atrating.baoshuo.dev/rating?username=Casee"
     }
+  },
+  "yanzhouxuzihao": {
+    "id": "yanzhouxuzihao",
+    "name": "徐梓皓",
+    "year": "2026",
+    "codeforces": {
+      "handle": "yanzhouxuzihao",
+      "url": "https://codeforces.com/profile/yanzhouxuzihao",
+      "badge": "https://api.cubercsl.site/codeforces/yanzhouxuzihao?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "yanzhouxuzihao",
+      "url": "https://atcoder.jp/users/yanzhouxuzihao",
+      "badge": "https://atrating.baoshuo.dev/rating?username=yanzhouxuzihao"
+    }
+  },
+  "_blds": {
+    "id": "_blds",
+    "name": "黄乃东",
+    "year": "2026",
+    "codeforces": {
+      "handle": "_blds",
+      "url": "https://codeforces.com/profile/_blds",
+      "badge": "https://api.cubercsl.site/codeforces/_blds?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "blds",
+      "url": "https://atcoder.jp/users/blds",
+      "badge": "https://atrating.baoshuo.dev/rating?username=blds"
+    }
+  },
+  "Eamon817": {
+    "id": "Eamon817",
+    "name": "陈宇铭",
+    "year": "2026",
+    "codeforces": {
+      "handle": "Eamon817",
+      "url": "https://codeforces.com/profile/Eamon817",
+      "badge": "https://api.cubercsl.site/codeforces/Eamon817?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "Eamon81",
+      "url": "https://atcoder.jp/users/Eamon81",
+      "badge": "https://atrating.baoshuo.dev/rating?username=Eamon81"
+    }
+  },
+  "AC_LIN": {
+    "id": "AC_LIN",
+    "name": "钟奥成",
+    "year": "2026",
+    "codeforces": {
+      "handle": "AC_LIN",
+      "url": "https://codeforces.com/profile/AC_LIN",
+      "badge": "https://api.cubercsl.site/codeforces/AC_LIN?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "AC_LIN",
+      "url": "https://atcoder.jp/users/AC_LIN",
+      "badge": "https://atrating.baoshuo.dev/rating?username=AC_LIN"
+    }
+  },
+  "Junksans": {
+    "id": "Junksans",
+    "name": "高嘉浩",
+    "year": "2026",
+    "codeforces": {
+      "handle": "Junksans",
+      "url": "https://codeforces.com/profile/Junksans",
+      "badge": "https://api.cubercsl.site/codeforces/Junksans?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "Junksans",
+      "url": "https://atcoder.jp/users/Junksans",
+      "badge": "https://atrating.baoshuo.dev/rating?username=Junksans"
+    }
+  },
+  "redmemory": {
+    "id": "redmemory",
+    "name": "陈嘉豪",
+    "year": "2026",
+    "codeforces": {
+      "handle": "redmemory",
+      "url": "https://codeforces.com/profile/redmemory",
+      "badge": "https://api.cubercsl.site/codeforces/redmemory?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "redmemory",
+      "url": "https://atcoder.jp/users/redmemory",
+      "badge": "https://atrating.baoshuo.dev/rating?username=redmemory"
+    }
+  },
+  "KskBlZD": {
+    "id": "KskBlZD",
+    "name": "陈锦涛",
+    "year": "2026",
+    "codeforces": {
+      "handle": "KskBlZD",
+      "url": "https://codeforces.com/profile/KskBlZD",
+      "badge": "https://api.cubercsl.site/codeforces/KskBlZD?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "hand_some",
+      "url": "https://atcoder.jp/users/hand_some",
+      "badge": "https://atrating.baoshuo.dev/rating?username=hand_some"
+    }
+  },
+  "zhect": {
+    "id": "zhect",
+    "name": "朱超廷",
+    "year": "2026",
+    "codeforces": {
+      "handle": "zhect",
+      "url": "https://codeforces.com/profile/zhect",
+      "badge": "https://api.cubercsl.site/codeforces/zhect?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "zhect",
+      "url": "https://atcoder.jp/users/zhect",
+      "badge": "https://atrating.baoshuo.dev/rating?username=zhect"
+    }
+  },
+  "BXG504": {
+    "id": "BXG504",
+    "name": "谭皓",
+    "year": "2026",
+    "codeforces": {
+      "handle": "BXG504",
+      "url": "https://codeforces.com/profile/BXG504",
+      "badge": "https://api.cubercsl.site/codeforces/BXG504?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "BXG504",
+      "url": "https://atcoder.jp/users/BXG504",
+      "badge": "https://atrating.baoshuo.dev/rating?username=BXG504"
+    }
+  },
+  "jienigui006": {
+    "id": "jienigui006",
+    "name": "邓思凡",
+    "year": "2026",
+    "codeforces": {
+      "handle": "jienigui006",
+      "url": "https://codeforces.com/profile/jienigui006",
+      "badge": "https://api.cubercsl.site/codeforces/jienigui006?style=for-the-badge"
+    },
+    "atcoder": {
+      "handle": "jienigui006",
+      "url": "https://atcoder.jp/users/jienigui006",
+      "badge": "https://atrating.baoshuo.dev/rating?username=jienigui006"
+    }
   }
 };

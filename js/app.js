@@ -1,6 +1,6 @@
-import { boardConfig } from './config.js?v=2025-team-order';
+import { boardConfig } from './config.js?v=2026-pool';
 import { createColumn } from './components.js?v=badge-images';
-import { players } from './db.js?v=badge-images';
+import { players } from './db.js?v=2026-pool';
 
 const currentCodeforcesHandles = {
   riobluss: 'Zihim',

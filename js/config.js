@@ -1,4 +1,4 @@
-import { players } from './db.js?v=badge-images';
+import { players } from './db.js?v=2026-pool';
 
 export const boardConfig = [
   {
@@ -56,7 +56,18 @@ export const boardConfig = [
     groups: [
       {
         name: "Pool",
-        members: []
+        members: [
+          players["yanzhouxuzihao"],
+          players["_blds"],
+          players["Eamon817"],
+          players["AC_LIN"],
+          players["Junksans"],
+          players["redmemory"],
+          players["KskBlZD"],
+          players["zhect"],
+          players["BXG504"],
+          players["jienigui006"]
+        ]
       }
     ]
   }
