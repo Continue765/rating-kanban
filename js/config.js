@@ -1,4 +1,4 @@
-import { players } from './db.js?v=2026-pool-2';
+import { players } from './db.js?v=2026-pool-3';
 
 export const boardConfig = [
   {
@@ -66,7 +66,8 @@ export const boardConfig = [
           players["KskBlZD"],
           players["zhect"],
           players["BXG504"],
-          players["jienigui006"]
+          players["jienigui006"],
+          players["shans_kyb"]
         ]
       }
     ]
