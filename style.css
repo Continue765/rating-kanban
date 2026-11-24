@@ -1,0 +1,261 @@
+/* Catppuccin Mocha */
+:root {
+    color-scheme: dark;
+    --page-bg: #1e1e2e;
+    --text-primary: #cdd6f4;
+    --text-secondary: #bac2de;
+
+    --header-bg: rgb(17 17 27 / 88%);
+    --column-bg: #181825;
+    --group-bg: #1e1e2e;
+    --card-bg: #313244;
+    --card-hover-bg: #45475a;
+
+    --separator: #313244;
+    --card-border: #45475a;
+    --card-hover-border: #585b70;
+    --surface-shadow: 0 1px 3px rgb(17 17 27 / 20%);
+    --card-hover-shadow: 0 4px 12px rgb(17 17 27 / 28%);
+
+    --control-bg: #313244;
+    --accent-color: #b4befe;
+    --focus-ring: rgb(180 190 254 / 26%);
+
+    --font-family: -apple-system, BlinkMacSystemFont, 'Inter', "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--page-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header - Frosted Glass */
+.app-header {
+    padding: 0.75rem 2rem;
+    background: var(--header-bg);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border-bottom: 1px solid var(--separator);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: var(--surface-shadow);
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: -0.03em;
+}
+
+.search-container input {
+    background: var(--control-bg);
+    border: 1px solid var(--separator);
+    padding: 0.4rem 1rem;
+    border-radius: 20px; /* Pill shape */
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    width: 240px;
+}
+
+.search-container input::placeholder {
+    color: var(--text-secondary);
+}
+
+.search-container input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    background: var(--card-bg);
+    box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+/* Year columns */
+.kanban-board {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(28rem, 1fr));
+    overflow-x: auto;
+    padding: 1.5rem; /* Reduced padding */
+    gap: 1.5rem;
+    margin: 0 auto;
+    width: 100%;
+    align-items: start;
+}
+
+.kanban-column {
+    background: var(--column-bg);
+    border-radius: 20px;
+    padding: 1.25rem; /* Compact padding */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--separator);
+}
+
+.column-header {
+    margin-bottom: 1rem;
+    padding: 0 0.25rem;
+    border-bottom: 1px solid var(--separator);
+    padding-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column-header h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+}
+
+.column-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Tighter gap */
+}
+
+/* Team Group */
+.team-group {
+    background: var(--group-bg);
+    border-radius: 16px;
+    padding: 1rem; /* Compact */
+    box-shadow: var(--surface-shadow);
+    border: 1px solid var(--separator);
+}
+
+.group-title {
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.group-members {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Very tight for team members */
+}
+
+/* Player List */
+.player-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; /* Tighter than before */
+}
+
+/* Player Card */
+.player-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 0.75rem 1rem; /* Compact padding */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: transform 0.2s ease;
+    box-shadow: var(--surface-shadow);
+    min-height: 64px; /* Slightly smaller min-height */
+    position: relative;
+    overflow: hidden;
+}
+
+.player-card:hover {
+    transform: translateY(-2px) scale(1.005);
+    box-shadow: var(--card-hover-shadow);
+    background: var(--card-hover-bg);
+    border-color: var(--card-hover-border);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.player-name {
+    font-size: 1rem; /* Refined size */
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--text-primary);
+}
+
+.card-badges {
+    display: flex;
+    gap: 0.75rem; /* Compact gap */
+    align-items: center;
+    flex-wrap: wrap; /* Ensure wrapping works */
+}
+
+.badge-link img {
+    height: 24px; /* Refined size */
+    border-radius: 4px;
+    display: block;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.badge-link:hover img {
+    transform: scale(1.1);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .kanban-board {
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    .kanban-column {
+        padding: 1rem;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: stretch;
+    }
+    
+    .search-container input {
+        width: 100%;
+    }
+    
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .player-card,
+    .badge-link img {
+        transition: none;
+    }
+
+    .player-card:hover,
+    .badge-link:hover img {
+        transform: none;
+    }
+}

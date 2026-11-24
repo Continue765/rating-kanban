@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM Ratings Kanban</title>
+    <meta name="color-scheme" content="dark">
+    <link rel="stylesheet" href="style.css?v=mocha-only">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-content">
+                <h1>ACM Ratings Board</h1>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search players...">
+                </div>
+            </div>
+        </header>
+        
+        <main id="board" class="kanban-board" tabindex="0" aria-label="Ratings by year">
+            <!-- Columns will be injected here -->
+        </main>
+    </div>
+    
+    <script type="module" src="./js/app.js?v=2025-team-order"></script>
+</body>
+</html>
