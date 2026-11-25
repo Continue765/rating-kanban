@@ -213,36 +213,15 @@ h1 {
     flex-wrap: wrap; /* Ensure wrapping works */
 }
 
-.badge-link img,
-.cf-badge {
+.badge-link img {
     height: 24px; /* Refined size */
     border-radius: 4px;
+    display: block;
     transition: transform 0.2s;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.badge-link img {
-    display: block;
-}
-
-.cf-badge {
-    display: inline-flex;
-    overflow: hidden;
-    color: #fff;
-    font: 700 9px/24px Verdana, sans-serif;
-    letter-spacing: 0.12em;
-    text-decoration: none;
-    text-transform: uppercase;
-    white-space: nowrap;
-}
-
-.cf-badge span {
-    padding: 0 0.5rem;
-    background: #555;
-}
-
-.badge-link:hover img,
-.cf-badge:hover {
+.badge-link:hover img {
     transform: scale(1.1);
 }
 
@@ -271,14 +250,12 @@ h1 {
 
 @media (prefers-reduced-motion: reduce) {
     .player-card,
-    .badge-link img,
-    .cf-badge {
+    .badge-link img {
         transition: none;
     }
 
     .player-card:hover,
-    .badge-link:hover img,
-    .cf-badge:hover {
+    .badge-link:hover img {
         transform: none;
     }
 }
